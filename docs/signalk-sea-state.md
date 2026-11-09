@@ -68,9 +68,18 @@ If your compass already sends PGN 127252, you have a second, independent heave s
 
 The enclosure is [OpenSCAD](../enclosure/), not a STEP file someone else owns: a gasketed base and lid in ASA or PETG, a TPU gasket and USB plug, M2 heat-set inserts for the board, M3 for the lid, four M4 slotted ears to the boat and a PG7 gland for the Micro-C lead. Every dimension is a parameter at the top of the file, so if you want the ears to land on a particular frame spacing, or a flatter lid, it's a number change and a reprint. Same for the pogo-pin [test jig](../hardware/test-plate/) that checks every net on a bare board in one press.
 
+## Where to mount it
+
+Pure heave is the same everywhere on a rigid hull: the whole boat goes up and down together. What differs by position is the contamination from roll and pitch, which is lever arm × angular acceleration. The firmware removes that term from the offset you enter, so a box a metre off-centre still gives the right answer in principle, but the correction is only as good as the measured offset, the gyro noise and the assumption that the hull is rigid. At the motion centre the term is near zero and none of that matters. So mount as close as you can, enter what's left, and let the correction clean up the residual rather than carry the load.
+
+- **Monohull:** on the centreline, low, near midships; the roll centre is near the waterline and the pitch centre near the middle of the waterline length.
+- **Catamaran:** the roll centre is on the bridgedeck centreline, roughly at the waterline, and the pitch centre near midships. Low in the bridgedeck near the mast step, on structure, is as good as it gets. It is also where a compass is least likely to be, which is what makes the compass-heave comparison above interesting on a cat.
+- Measure the offset from the mast step or a frame, not by eye: 0.3 m of error in x is tolerable, a metre isn't.
+- Bolt to structure, not to a panel. A locker lid that flexes under the box reads as motion.
+
 ## What a test boat needs
 
-- a mounting spot near the roll/pitch centre (centreline, low, near midships), bolted to structure, with the offset measured;
+- a mounting spot near the roll/pitch centre as above, bolted to structure, with the offset measured;
 - 12 V from the backbone or a USB-C supply, and Wi-Fi to the Signal K server;
 - ten minutes in the web UI: mounting offset, calibration, done.
 
