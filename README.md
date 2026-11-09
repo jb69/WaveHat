@@ -19,6 +19,7 @@ Signal K knows the depth, the wind, the current and even a forecast wave height.
 | [`enclosure/`](enclosure/) | Printable gasketed enclosure: parametric OpenSCAD and STLs | CERN-OHL-S 2.0 |
 | [`firmware/`](firmware/) | SensESP firmware (heave, Hs, Tp, Tz to Signal K; NMEA 2000 in, listen-only; on-board CSV log; GNSS port; battery mode), the wave maths in C++ and Python with its test harness and accuracy results, and VESC Express board files | MIT |
 | [`signalk-plugin/`](signalk-plugin/) | `signalk-seastate`: a Signal K server plugin that makes a sea state from the heave a Precision-9 compass already puts on NMEA 2000 (PGN 127252). No WaveHat needed | MIT |
+| [`docs/signalk-sea-state.md`](docs/signalk-sea-state.md) | The write-up: the gap in Signal K, what the maths does, where the paths land in the spec, and how a boat with a heave-capable compass can try it with no hardware | |
 | [`REVIEW.md`](REVIEW.md) | A critical review of the plan and the maths against the objective (21 Oct 2026) | |
 
 ## What it sends
