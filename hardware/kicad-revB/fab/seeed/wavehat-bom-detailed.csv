@@ -1,0 +1,22 @@
+Designator,Qty,Value,Description,Package,Manufacturer,MPN or Seeed SKU,Side,Link
+"C1,C3,C6,C7,C8",5,100nF,"Capacitor, ceramic MLCC",C_0402_1005Metric,Murata,GRM155R71C104KA88D,"Top: C1,C3,C6,C7 / Bottom: C8",
+"C2,C9",2,10uF,"Capacitor, ceramic MLCC",C_0603_1608Metric,Murata,GRM188R61A106KE69D,Top: C2 / Bottom: C9,
+C4,1,2.2uF 100V,"Capacitor, ceramic MLCC",C_1206_3216Metric,Murata,GRM31CR72A225KA73L,Top,
+C5,1,22uF 10V,"Capacitor, ceramic MLCC",C_0805_2012Metric,Murata,GRM21BR61A226ME51L,Top,
+"D1,D2,D3",3,SS14,"Diode, Schottky",D_SMA,any (SMA Schottky),SS14,Top,
+F1,1,0.5A 60V,PTC resettable fuse,Fuse_1812_4532Metric,Littelfuse,1812L050/60MR,Top,https://www.lcsc.com/product-detail/C87383.html
+J2,1,Qwiic,"Connector, 4-pin SMD right angle",JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,JST,SM04B-SRSS-TB(LF)(SN),Top,https://www.lcsc.com/search?q=SM04B-SRSS-TB(LF)(SN)
+J3,1,VESC CAN,"Connector, 4-pin SMD right angle",JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal,JST,SM04B-GHS-TB(LF)(SN),Top,https://www.digikey.com/en/products/detail/jst-sales-america-inc/SM04B-GHS-TB/807788
+J6,1,IO header,,JST_GH_SM10B-GHS-TB_1x10-1MP_P1.25mm_Horizontal,JST,SM10B-GHS-TB(LF)(SN),Top,
+L1,1,15uH,"Inductor, shielded",L_Changjiang_FNR4020S,Changjiang (cjiang),FNR4020S150MT,Top,https://www.lcsc.com/product-detail/C167837.html
+"R1,R2",2,4.7k,"Resistor, thick film 1 %",R_0402_1005Metric,Yageo,RC0402FR-074K7L,Top,
+R3,1,120k,"Resistor, thick film 1 %",R_0402_1005Metric,Yageo,RC0402FR-07120KL,Top,
+R4,1,22.1k,"Resistor, thick film 1 %",R_0402_1005Metric,Yageo,RC0402FR-0722K1L,Top,
+R5,1,120,"Resistor, thick film 1 %",R_0402_1005Metric,Yageo,RC0402FR-07120RL,Top,
+"R6,R9,R10,R11,R12",5,10k,"Resistor, thick film 1 %",R_0402_1005Metric,Yageo,RC0402FR-0710KL,"Top: R6 / Bottom: R9,R10,R11,R12",
+TVS1,1,SMBJ30A,"TVS diode, unidirectional",D_SMB,any (SMB TVS),SMBJ30A,Top,
+U1,1,LSM6DSO,"IMU, 6-axis accelerometer + gyro",LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y,STMicroelectronics,LSM6DSOTR,Top,
+U2,1,LMR51606Y,"Buck converter 4-65 V, 0.6 A",SOT-23-6,Texas Instruments,LMR51606YDBVR,Top,https://www.ti.com/product/LMR51606/part-details/LMR51606YDBVR
+U3,1,SN65HVD230,"CAN transceiver, 3.3 V",SOIC-8_3.9x4.9mm_P1.27mm,Texas Instruments,SN65HVD230DR,Top,
+U5,1,SD NAND 2Gb (256 MB),"SD NAND flash 2 Gbit (256 MB), SLC, SD/SPI",SD_NAND_LGA-8_8x6mm_P1.27mm,Zetta,ZDSD02GLGEAG,Bottom,https://www.lcsc.com/product-detail/C2875853.html
+U4,1,XIAO ESP32C3 / C6 / S3,"MCU module (Seeed Open Parts Library), castellated SMD",XIAO 14-pad,Seeed Studio,113991054 / 113991254 / 113991114,Top,optional: per BOM option

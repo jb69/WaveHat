@@ -1,0 +1,12 @@
+WaveHat rev A (2026-10): fabrication notes
+Board: 21.00 x 54.00 mm (+-0.2 mm), outline in wavehat.GKO, corner radius 1.2 mm
+Layers: 2; FR-4 TG130 or better; finished thickness 1.6 mm (+-10 %); copper 1 oz both layers
+Surface finish: ENIG (two LGA parts: U1 LSM6DSO, U5 SD NAND)
+Solder mask: both sides, any colour; minimum solder mask dam 0.1 mm (keeps mask between the IMU's 0.5 mm-pitch pads);
+            silkscreen both sides (version and date on the bottom)
+Minimum track / space: 0.15 / 0.15 mm (6/6 mil); minimum drill 0.3 mm (vias 0.6 mm pad, tented); copper to edge 0.3 mm
+Holes: 2 plated M2 mounting holes (2.2 mm); no castellated holes, no slots, no V-cuts, no impedance control
+Origin: all files (Gerbers, drill, pick and place) measure from the board's lower-left corner
+Files: wavehat.GTL/GBL copper, GTS/GBS mask, GTO/GBO silkscreen, GTP/GBP paste, GKO outline, TXT Excellon drill
+Assembly: see the assembly instructions zip (pick and place, drawings, BOM). The same Gerbers serve every build;
+          only what is placed differs (full build: both sides; no-storage build: top side only).

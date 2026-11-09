@@ -1,0 +1,46 @@
+schematic: 83 parts, 36 nets
+Found 0 violations
+placed 83 footprints, 36 nets; rules {'clearance': 0.15, 'track': 0.15, 'via': 0.6, 'drill': 0.3, 'power_track': 0.4, 'supply_track': 0.3, 'edge': 0.3}; DSN export: True
+final score: 936.97 (5 unrouted and 21 violations), using 117.37 total CPU secon
+SES import: True; 1025 segments (20 widened to 0.15 mm), 194 vias (57 twins added, 29 stitching, 0 removed from keep-outs); GND poured both layers
+no room for a twin via at: TERM (13.93, 45.63), IMU_INT2 (9.88, 57.71), IMU_INT2 (11.97, 41.05), IMU_INT1 (17.97, 57.55), IMU_INT1 (16.08, 60.79), SA0 (9.72, 48.77), SA0 (13.47, 58.11), SA0 (12.33, 56.95), SA0 (8.66, 66.78), SA0 (14.88, 61.72), SD_MISO (4.57, 13.05), SD_SCK (11.85, 12.25), UART_TX (18.13, 25.52), UART_TX (18.13, 48.39), SCL (1.41, 43.03), SCL (10.39, 67.30), SDA (4.26, 41.37), SDA (9.46, 67.09), SDA (19.28, 58.24), LED_B (9.25, 41.34), LED_R (12.54, 42.08), LED_R (7.51, 17.46), LED_R (15.48, 6.59), CAN_TX (9.45, 42.31), CAN_RX (13.72, 42.01), CAN_RX (11.80, 47.48), 5V_BUCK (17.65, 21.98), 3V3 (6.59, 39.45), 3V3 (12.69, 65.91), 5V_CAN (17.06, 56.73), XIAO_5V (5.07, 58.21), CB (13.24, 24.87), VBAT (13.34, 19.86), FB (14.88, 19.89), FB (16.14, 20.56), CANH (13.37, 52.43), CANH (10.70, 52.22), CANL (17.49, 55.34), CANL (6.92, 30.28), CAN_RXD (12.42, 48.28), VIN_FUSED (11.71, 35.30), VIN (5.74, 24.89)
+Found 41 violations
+Found 5 unconnected items
+Found 0 schematic parity issues
+routing attempt 1 (100 passes) not clean
+final score: 964.36 (1 unrouted and 21 violations), using 99.53 total CPU second
+SES import: True; 1119 segments (21 widened to 0.15 mm), 180 vias (42 twins added, 22 stitching, 0 removed from keep-outs); GND poured both layers
+no room for a twin via at: SD_CS (4.24, 13.54), CAN_RXD (12.41, 47.41), CAN_TXD (11.77, 44.03), IMU_INT2 (13.15, 63.62), IMU_INT2 (13.60, 60.94), IMU_INT2 (14.52, 52.34), IMU_INT1 (8.04, 60.67), IMU_INT1 (9.08, 51.75), SA0 (8.58, 66.71), TERM (14.13, 32.82), TERM (13.83, 49.24), VBAT (14.27, 17.83), SD_MISO (4.47, 12.32), LED_B (9.11, 41.44), LED_B (17.69, 21.80), LED_B (17.27, 30.97), LED_B (16.48, 32.89), LED_R (7.56, 50.31), LED_R (16.37, 5.47), LED_R (12.35, 17.82), LED_R (7.64, 25.38), CAN_TX (6.47, 42.85), CAN_TX (11.11, 34.09), CAN_TX (11.47, 40.19), CAN_TX (16.92, 6.59), CAN_TX (15.76, 16.02), CAN_TX (18.82, 30.91), CAN_TX (15.15, 34.50), CAN_RX (6.44, 50.01), CAN_RX (12.48, 34.04), CAN_RX (11.47, 18.61), FB (11.03, 26.17), CB (12.94, 25.42), 5V_CAN (17.06, 56.73), CANH (12.70, 39.69), CANL (16.22, 40.10), SDA (16.31, 19.18), SCL (6.50, 37.81), SCL (10.50, 67.30), SCL (6.88, 63.05), UART_RX (13.92, 53.73), UART_RX (12.30, 37.75), UART_TX (6.24, 51.52), UART_TX (14.60, 39.56), UART_TX (5.88, 44.43), UART_TX (7.78, 39.31), UART_TX (7.01, 38.53), UART_TX (5.15, 30.38), UART_TX (7.05, 29.78), UART_TX (8.05, 30.70), XIAO_5V (5.10, 58.00), XIAO_5V (13.17, 38.05), VIN (6.15, 25.52), RS (7.65, 51.95), RS (8.36, 52.79), RS (8.79, 61.04), RS (6.74, 35.30), RS (10.24, 37.27), 3V3 (6.61, 39.34), 3V3 (4.71, 44.50), 3V3 (4.80, 41.15), 3V3 (12.05, 63.19)
+Found 42 violations
+Found 1 unconnected items
+Found 0 schematic parity issues
+routing attempt 2 (150 passes) not clean
+final score: 957.52 (2 unrouted and 21 violations), using 81.94 total CPU second
+SES import: True; 1054 segments (18 widened to 0.15 mm), 173 vias (43 twins added, 30 stitching, 0 removed from keep-outs); GND poured both layers
+no room for a twin via at: SD_CS (5.38, 13.71), SCL_PU (14.05, 62.97), SCL_PU (1.42, 43.03), SCL_PU (2.96, 41.76), IMU_INT1 (9.06, 63.36), SA0 (8.24, 61.76), VIN (14.15, 26.05), VIN_RAW (1.16, 29.64), TERM (13.12, 42.31), XIAO_5V (5.10, 59.09), 3V3 (6.59, 39.44), 3V3 (7.98, 19.98), 3V3 (4.15, 45.10), 3V3 (12.60, 65.92), SD_MOSI (4.73, 11.94), SD_SCK (7.34, 6.74), SD_SCK (4.29, 10.67), UART_RX (1.84, 26.27), UART_RX (14.28, 52.53), UART_RX (1.42, 34.78), UART_TX (14.69, 49.46), SCL (1.70, 58.00), SCL (18.25, 31.46), SCL (6.98, 37.22), SCL (12.79, 39.04), SCL (17.29, 40.49), SDA (4.08, 38.06), SDA (10.08, 67.38), SDA (16.87, 51.96), LED_B (7.67, 50.80), LED_B (17.06, 11.76), LED_R (6.85, 42.84), LED_R (17.58, 44.33), LED_R (17.58, 41.66), LED_R (12.98, 38.26), LED_R (18.65, 37.41), CAN_TX (8.02, 40.87), CAN_TX (11.20, 29.85), CAN_RX (8.81, 47.97), CAN_RX (10.78, 31.24), CAN_RX (14.55, 41.67), CB (16.14, 23.38), CANL (13.51, 45.98), CANL (4.21, 33.17), CANL (12.39, 53.22), CANL (13.13, 52.11), CAN_RXD (12.57, 47.98), 3V3_CAN (7.76, 45.24), CAN_TXD (8.20, 42.16)
+Found 41 violations
+Found 2 unconnected items
+Found 0 schematic parity issues
+routing attempt 3 (200 passes) not clean
+final score: 964.36 (1 unrouted and 21 violations), using 120.18 total CPU secon
+SES import: True; 1071 segments (18 widened to 0.15 mm), 202 vias (48 twins added, 23 stitching, 0 removed from keep-outs); GND poured both layers
+no room for a twin via at: SD_CS (6.67, 6.11), SD_CS (4.65, 12.32), SCL_PU (12.51, 61.36), CB (12.95, 29.79), CAN_TXD (11.89, 41.83), IMU_INT2 (14.19, 57.64), IMU_INT1 (7.83, 62.41), IMU_INT1 (7.69, 60.81), IMU_INT1 (18.60, 52.75), SA0 (12.66, 65.95), SA0 (13.07, 63.99), SA0 (9.54, 52.30), SA0 (11.35, 51.74), SA0 (17.09, 55.45), CANL (6.94, 30.24), TERM (13.41, 45.63), TERM (14.32, 40.01), CANH (9.24, 39.18), SD_MOSI (6.07, 12.04), SD_MISO (7.33, 3.60), LED_B (6.74, 44.24), LED_B (19.23, 33.46), LED_R (3.66, 53.31), LED_R (11.19, 63.30), LED_R (12.24, 59.56), LED_R (12.83, 31.15), LED_R (11.11, 30.93), LED_R (15.98, 23.15), LED_R (15.89, 11.77), CAN_TX (16.72, 5.42), CAN_TX (6.20, 44.82), CAN_TX (13.46, 42.37), CAN_TX (11.36, 37.90), CAN_RX (6.78, 49.99), CAN_RX (12.14, 37.83), CAN_RX (13.04, 39.51), CAN_RX (2.94, 52.33), CAN_RX (3.05, 48.55), 5V_CAN (17.04, 56.74), 5V_CAN (14.89, 20.62), VBAT (8.21, 51.95), VBAT (8.54, 35.91), VBAT (11.25, 35.08), VBAT (14.67, 33.19), VBAT (13.73, 25.01), SDA (9.40, 67.37), SDA (2.09, 53.54), SDA (16.85, 16.62), SDA (2.93, 41.01), SDA (17.49, 22.02), SCL (10.53, 67.30), SCL (3.79, 41.69), SCL (17.45, 60.07), UART_RX (10.08, 56.06), UART_TX (10.80, 55.67), UART_TX (19.75, 31.36), UART_TX (10.24, 52.73), UART_TX (12.37, 52.19), XIAO_5V (1.58, 45.13), XIAO_5V (11.25, 37.03), VIN (7.93, 25.35), VIN (5.86, 25.41), VIN_FUSED (11.25, 34.11), VIN_RAW (11.47, 19.93), 3V3_CAN (10.23, 47.99), SDA_PU (3.66, 45.77), SDA_PU (2.50, 50.87), 3V3 (12.69, 56.42), 3V3 (4.60, 45.10), 3V3 (6.63, 53.65), 3V3 (11.89, 60.63), 3V3 (11.50, 67.12), 3V3 (12.17, 64.21), 5V_BUCK (11.25, 36.05)
+Found 45 violations
+Found 1 unconnected items
+Found 0 schematic parity issues
+routing attempt 4 (80 passes) not clean
+final score: 971.21 (0 unrouted and 21 violations), using 73.74 total CPU second
+SES import: True; 1001 segments (16 widened to 0.15 mm), 176 vias (43 twins added, 20 stitching, 0 removed from keep-outs); GND poured both layers
+no room for a twin via at: TERM (13.72, 39.58), TERM (12.52, 35.75), TERM (9.74, 43.16), 5V_CAN (17.10, 56.84), IMU_INT2 (15.59, 60.27), IMU_INT2 (17.87, 48.40), IMU_INT1 (13.55, 50.15), IMU_INT1 (13.26, 57.59), IMU_INT1 (13.09, 52.01), CANH (8.14, 39.90), CANH (12.89, 39.68), CANH (7.50, 52.26), CANH (9.87, 48.72), CANL (5.20, 29.78), CANL (5.07, 41.10), CANL (5.24, 44.17), CANL (11.49, 48.63), CAN_TXD (7.82, 44.53), XIAO_5V (6.54, 19.57), SD_MOSI (4.77, 8.16), SD_MISO (4.72, 10.93), SD_SCK (5.87, 7.64), SD_SCK (5.87, 14.24), UART_RX (14.25, 54.92), UART_RX (14.10, 53.26), UART_RX (1.80, 40.51), UART_RX (3.77, 54.73), UART_TX (9.06, 53.03), UART_TX (17.16, 55.34), LED_B (4.20, 19.76), LED_B (16.33, 23.07), LED_B (14.49, 41.52), LED_B (8.92, 51.89), LED_R (7.05, 42.99), LED_R (15.76, 24.58), LED_R (17.32, 31.04), LED_R (15.54, 38.45), CAN_TX (7.04, 43.76), CAN_TX (10.99, 30.19), CAN_TX (12.51, 33.98), CAN_RX (7.79, 45.30), SCL (10.50, 67.30), SCL (19.67, 58.24), SCL (4.08, 37.75), SDA (9.43, 67.06), SDA (3.89, 38.80), SDA (15.13, 39.12), FB (12.86, 30.27), FB (15.68, 31.74), 5V_BUCK (5.86, 20.52), SDA_PU (10.60, 62.99), SDA_PU (5.35, 57.97), VIN_RAW (2.91, 32.01), SCL_PU (12.51, 59.69), 3V3 (14.55, 57.30), 3V3 (4.46, 44.26), CB (4.44, 18.71), RS (12.19, 39.17), RS (10.49, 39.16)
+Found 41 violations
+Found 0 unconnected items
+Found 0 schematic parity issues
+DRC clean on routing attempt 5 (250 passes)
+wrote netlist-revB.md (36 nets), bom-revB.csv and reports/test-pads.md (30 pads)
+seeed: gerbers 10 files; BOM 20 lines (+ XIAO option); 32 placed parts: top 25, bottom 7 (C8 C9 R9 R10 R11 R12 U5); 104 SMD pads without the XIAO
+CPL rows: 33 (incl. U4)
+no-storage: 25 placed parts, top only; left off: C8 C9 R9 R10 R11 R12 U5; BOM 19 lines (+ XIAO option); CPL rows 26
+jlcpcb no-storage: BOM 19 lines, CPL 25 parts (Top; no XIAO)
+jlcpcb full: BOM 20 lines, CPL 32 parts (Bottom + Top; no XIAO)
+jlcpcb full-gnss: BOM 21 lines, CPL 33 parts (Bottom + Top; no XIAO; J5 fitted)
+outputs in fab/ and img/

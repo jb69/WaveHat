@@ -1,0 +1,26 @@
+{
+  "name": "signalk-seastate",
+  "version": "0.1.0",
+  "description": "Significant wave height and period in Signal K from NMEA 2000 heave (PGN 127252, e.g. a B&G/Simrad Precision-9 compass) or any heave path",
+  "main": "index.js",
+  "keywords": [
+    "signalk-node-server-plugin",
+    "signalk-category-nmea-2000",
+    "signalk-category-weather",
+    "waves",
+    "heave",
+    "sea state"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "seastate.js",
+    "README.md"
+  ]
+}

@@ -1,0 +1,22 @@
+Designator,Manufacturer Part Number or Seeed SKU,Qty,Link
+"C1,C3,C6,C7,C8",GRM155R71C104KA88D,5,
+"C2,C9",GRM188R61A106KE69D,2,
+C4,GRM31CR72A225KA73L,1,
+C5,GRM21BR61A226ME51L,1,
+"D1,D2,D3",SS14,3,
+F1,1812L050/60MR,1,https://www.lcsc.com/product-detail/C87383.html
+J2,SM04B-SRSS-TB(LF)(SN),1,https://www.lcsc.com/search?q=SM04B-SRSS-TB(LF)(SN)
+J3,SM04B-GHS-TB(LF)(SN),1,https://www.digikey.com/en/products/detail/jst-sales-america-inc/SM04B-GHS-TB/807788
+J6,SM10B-GHS-TB(LF)(SN),1,
+L1,FNR4020S150MT,1,https://www.lcsc.com/product-detail/C167837.html
+"R1,R2",RC0402FR-074K7L,2,
+R3,RC0402FR-07120KL,1,
+R4,RC0402FR-0722K1L,1,
+R5,RC0402FR-07120RL,1,
+"R6,R9,R10,R11,R12",RC0402FR-0710KL,5,
+TVS1,SMBJ30A,1,
+U1,LSM6DSOTR,1,
+U2,LMR51606YDBVR,1,https://www.ti.com/product/LMR51606/part-details/LMR51606YDBVR
+U3,SN65HVD230DR,1,
+U4,113991114,1,Seeed Open Parts Library: Seeed Studio XIAO ESP32S3
+U5,ZDSD02GLGEAG,1,https://www.lcsc.com/product-detail/C2875853.html
