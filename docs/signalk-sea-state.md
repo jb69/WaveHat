@@ -87,6 +87,6 @@ What you get: a measured sea state in Signal K and on your displays, an on-board
 
 ## Where it stands, honestly
 
-As of November 2026: rev A boards have run on the bench. Rev B (GNSS port, IO header, battery option) is at the fab. The plugin's maths is tested against known seas and it has not yet met a real compass. **No boat has been to sea with one yet.** The first boats to do so will be finding the problems, not buying a product; that is the deal, and it's why the whole design is open.
+As of November 2026: rev A boards are in service in eFoils under VESC Express, so the hardware (IMU, CAN, log storage, power) has hours on the water; the yacht firmware has run on them only on the bench. Rev B (GNSS port, IO header, battery option) is at the fab. The plugin's maths is tested against known seas and it has not yet met a real compass. **No boat has been to sea with one yet.** The first boats to do so will be finding the problems, not buying a product; that is the deal, and it's why the whole design is open.
 
 If you'd rather have the raw 26 Hz IMU stream to play with yourself, open an issue; it's a build flag away.

@@ -36,9 +36,9 @@ How: a Mahony filter finds "up", the acceleration is moved to the hull's roll/pi
 
 ## Status (9 Nov 2026)
 
-Honest version: **no boat has been to sea with one yet.**
+Honest version: **no yacht has been to sea with one yet.** The board itself has, in an eFoil.
 
-- **Rev A:** five boards built by JLCPCB in October 2026 and brought up on the bench. They had open vias from the fab's plating; rev B's layout changes (twinned vias, a test pad per layer crossing) come from that.
+- **Rev A:** five boards built by JLCPCB in October 2026; brought up on the bench and in service in eFoils under VESC Express. They had open vias from the fab's plating; rev B's layout changes (twinned vias, a test pad per layer crossing) come from that.
 - **Rev B:** laid out, checked (ERC 0, DRC 0 errors) and ordered on 7 Nov 2026. Adds a GNSS port (J5), a 10-pin IO header (J6), jumpers that isolate the CAN transceiver (JP8–JP10) and a 1S battery option (J7). Not yet received.
 - **Firmware:** builds for all three XIAOs; the wave maths is tested on the desktop and on a bare XIAO C3. The rev B features (GNSS, battery mode with wake-on-motion, bus heave logging) are written and build, and have not run on a board.
 - **Signal K plugin:** maths tested against known seas; not yet run against a real compass.
